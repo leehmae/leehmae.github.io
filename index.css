@@ -124,6 +124,7 @@ h3{
     align-items: left;
     justify-content: left;
     padding-left: 50px;
+    padding-bottom: 40px;
 }
 .answers{
 }
@@ -131,11 +132,11 @@ h3{
     height: 70px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     Zb Text-size: 12px;
 
     .head{
-        width: 500px;
+        width: 600px;
     }
     .quiz{
         margin-top: 100px;
