@@ -1,7 +1,7 @@
 .Titel{
     display: flex;
     align-items: left;
-    justify-content: left;
+    justify-content: center;
     margin-top: 80px;
     padding-left: 40px;
 }
