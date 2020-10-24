@@ -126,5 +126,10 @@ h3{
     Zb Text-size: 12px;
     .head{
         width: 500px;
+    .quiz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
     }
 }
