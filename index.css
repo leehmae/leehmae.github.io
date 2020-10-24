@@ -122,6 +122,9 @@ h3{
 .quizquestion{
     height: 70px;
 }
-@media screen and (max-width: 400px) {
-     Zb Text-size: 12px;
+@media screen and (max-width: 500px) {
+    Zb Text-size: 12px;
+    .head{
+        width: 500px;
+    }
 }
