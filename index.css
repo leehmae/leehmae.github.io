@@ -131,5 +131,16 @@ h3{
 .quizquestion{
     height: 70px;
 }
+@media screen and (max-width: 600px) {
+    font-size: 12px;
+
+    .head{
+        width: 500px;
+    }
+    .quiz{
+        margin-top: 100px;
+        left: 200px;
+    }
+}
 
 
