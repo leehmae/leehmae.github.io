@@ -132,14 +132,4 @@ h3{
     height: 70px;
 }
 
-@media screen and (max-width: 600px) {
-    Zb Text-size: 12px;
 
-    .head{
-        width: 600px;
-    }
-    .quiz{
-        margin-top: 100px;
-        left: 200px;
-    }
-}
