@@ -1,8 +1,9 @@
 .Titel{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     margin-top: 50px;
+    padding-left: 30px;
 }
 h1{
     text-align: left;
@@ -26,31 +27,34 @@ p{
 }
 .Untertitel{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     margin-top: 30px;
+    padding-left: 30px;
 }
 #startimg{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
+    padding-left: 30px;
 }
 .text{
     display: grid;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
+    padding-left: 30px;
 }
 
 .head{
     position: fixed;
     top: 0px;
     font-size: 20px;
-    width: 820px;
+    width: 850px;
     height: 40px;
-    left: 50%;
+    padding-left: 30px;
     margin-top: 0px;
     padding-top: 0px;
-    margin-left: -410px; /* Negative half of width. */
+    
 }
 
 
@@ -76,16 +80,18 @@ a:hover{background-color:black;
 }
 .layout{
     display: grid;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
+    padding-left: 30px;
 }
 th{
     width: 30px;
 }
 .container-fluid{
     display: grid;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
+    padding-left: 30px;
 }
 
 /* Ranking*/
@@ -108,25 +114,31 @@ h3{
 }
 .quiz{
     display: grid;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     margin-top: 100px;
+    padding-left: 50px;
 }
 .Auswertung{
     display: grid;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
+    padding-left: 50px;
 }
 .answers{
 }
 .quizquestion{
     height: 70px;
 }
-@media screen and (max-width: 300px) {
-    Text-size: 12px;
+
+@media screen and (max-width: 500px) {
+    Zb Text-size: 12px;
+
     .head{
         width: 500px;
+    }
     .quiz{
-    left: 200px
+        margin-top: 100px;
+        left: 200px;
     }
 }
