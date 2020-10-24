@@ -1,0 +1,124 @@
+.Titel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+h1{
+    text-align: left;
+    border: 3px black solid;
+    outline: 0.5rem double rgb(250, 13, 5);
+    height: 55px;
+    width: 800px;
+    top: 10px
+}
+h2{
+    height: 40px;
+    width: 800px;
+    top: 30px;
+    margin-top: 30px;
+}
+p{
+    height: 200px;
+    width: 800px;
+    top: 10px;
+    margin-top: -10px;
+}
+.Untertitel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+#startimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.head{
+    position: fixed;
+    top: 0px;
+    font-size: 20px;
+    width: 820px;
+    height: 40px;
+    left: 50%;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: -410px; /* Negative half of width. */
+}
+
+
+a:link{color: black;}
+a:visited{color: black}
+a:hover{background-color:black;
+    color: white;
+    font-weight: bold;
+}
+#philo{
+    font-size: 20px;
+}
+
+/* NEWS*/
+
+
+
+
+
+#newstable{
+    border: 1px black solid;
+    width: 800px;
+}
+.layout{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+th{
+    width: 30px;
+}
+.container-fluid{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Ranking*/
+
+.container{
+    width: 800px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    padding: 0px
+}
+h3{
+    height: 40px;
+    width: 800px;
+    top: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.quiz{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.Auswertung{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.answers{
+}
+.quizquestion{
+    height: 70px;
+}

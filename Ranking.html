@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BeerpongClub Toffen</title>
+    <link href="design.css" rel="stylesheet">
+    <link href="ranking.js" rel="stylesheet">
+    <script src="ranking.js"> </script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+
+
+
+
+    <div class="Titel">
+        <h1>BeerpongClub Toffen</h1><br>
+    </div>
+    
+    
+    <div class="head" style="width: 800px;"> 
+      <div class="btn-group">
+          <a role="button" class="btn btn-danger disabled" href="Startseite.html" >Startseite</a>
+          <a role="button" class="btn btn-danger disabled" href="Sponsoring.html" >Werde Sponsor</a>
+          <a role="button" class="btn btn-danger disabled" href="Member.html" >Mitglieder/Top-Athleten</a>
+          <a role="button" class="btn btn-danger disabled" href="Gallerie.html" >Gallerie</a>
+          <a role="button" class="btn btn-danger" href="Ranking.html" ><strong>Dein Beerpong-Rating</strong></a>
+
+          <div class="btn-group">
+              <button  role="button" class="btn btn-danger dropdown-toggle " data-toggle="dropdown">News</button>
+              <div class="dropdown-menu">
+                  <a role="button" class="dropdown-item disabled" href="News.html" >Was bei uns so läuft</a>
+                  <a role="button" class="dropdown-item disabled" href="Turniere.html" >Tournaments</a>
+                  <a role="button" class="dropdown-item disabled" href="tournamentcreator.html" >Tournamentcreator</a>
+                  <a  role="button" class="dropdown-item" href="https://www.youtube.com/watch?v=9Riq6IMqXz8">courrent Hyme</a>
+              </div>
+          </div>
+       </div>
+  </div>
+  <div class="text">
+      <h2>Beantworte die folgenden Fragen und erhalte dein persönliches Bierpong-Rating</h2>
+  </div>
+
+
+
+  
+  <ol class="quiz">
+    <li class="quizblock">
+        <div class="questions">
+            <h3 class="quizquestion">Wie oft spielst du Bierpong (durchschnittlich)?</h3>
+        </div>
+        <div class="answers">
+            <div class="answer1">
+                <input type="radio" name="punkte[0]" id="label01" value="7">
+                    <label for="label01">1 pro Monat</label>
+            </div>
+            <div class="answer2">
+                <input type="radio" name="punkte[0]" id="label02" value="9">
+                    <label for="label02">Sicher alle 2 Wochen</label>
+            </div>
+            <div class="answer3">
+                <input type="radio" name="punkte[0]" id="label03" value="2">
+                    <label for="label03">Sehr selten</label>
+            </div>
+            <div class="answer4">
+                <input type="radio" name="punkte[0]" id="label04" value="5">
+                    <label for="label04">Nur an Partys</label>
+            </div>
+        </div>
+    </li>
+    <li class="quizblock">
+        <div class="questions">
+            <h3 class="quizquestion">Wie verhälst du dich wenn der Gegner am spielen ist</h3>
+        </div>
+        <div class="answers">
+            <div class="answer1">
+                <input type="radio" name="punkte[1]" id="label11" value="2">
+                    <label for="label11">ruhig, cool bleiben</label>
+            </div>
+            <div class="answer2">
+                <input type="radio" name="punkte[1]" id="label12" value="9">
+                    <label for="label12">Gegner verwirren</label>
+            </div>
+            <div class="answer3">
+                <input type="radio" name="punkte[1]" id="label13" value="7">
+                    <label for="label13">gar nichts, die anderen Treffen sowieso nicht</label>
+            </div>
+            <div class="answer4">
+                <input type="radio" name="punkte[1]" id="label14" value="5">
+                    <label for="label14">ich trinke mein bier</label>
+            </div>
+        </div>
+    </li>
+    <li class="quizblock">
+        <div class="questions">
+            <h3 class="quizquestion">Wie lange brauchst du um deinen Becher leer zu trinken?<h3>
+        </div>
+        <div class="answers">
+            <div class="answer1">
+                <input type="radio" name="punkte[2]" id="label21" value="9">
+                    <label for="label21">Direkt auf ex, ca 2 sekunden</label>
+            </div>
+            <div class="answer2">
+                <input type="radio" name="punkte[2]" id="label22" value="1">
+                    <label for="label22">Trinke den Becher während dem Spiel gemütlich aus</label>
+            </div>
+            <div class="answer3">
+                <input type="radio" name="punkte[2]" id="label23" value="7">
+                    <label for="label23">ca 10 sekunden</label>
+            </div>
+            <div class="answer4">
+                <input type="radio" name="punkte[2]" id="label24" value="5">
+                    <label for="label24">Gemütlich aber so, dass der Becher sicher in der nächsten Runde leer ist</label>
+            </div>
+        </div>
+    </li>
+    <li class="quizblock">
+        <div class="questions">
+            <h3 class="quizquestion">Ab wann bist du überzeugt, dass du den nächsten Becher treffen wirst?</h3>
+        </div>
+        <div class="answers">
+            <div class="answer1">
+                <input type="radio" name="punkte[3]" id="label31" value="9">
+                    <label for="label31">Immer, ich treffe jeden</label>
+            </div>
+            <div class="answer2">
+                <input type="radio" name="punkte[3]" id="label32" value="5">
+                    <label for="label32">Dirket nach dem Wurf, sobald der Ball in der luft ist, weiss ich, ob ich treffe oder nicht</label>
+            </div>
+            <div class="answer3">
+                <input type="radio" name="punkte[3]" id="label33" value="1">
+                    <label for="label33">Bin meistens nicht so überzeugt, dass ich treffe</label>
+            </div>
+            <div class="answer4">
+                <input type="radio" name="punkte[3]" id="label34" value="4">
+                    <label for="label34">Ich fühle es, wenn ich am werfen bin</label>
+            </div>
+        </div>
+    </li>
+    <li class="quizblock">
+        <div class="questions">
+            <h3 class="quizquestion">Hast du schon einmal an einem Turnier mitgemacht?</h3>
+        </div>
+        <div class="answers">
+            <div class="answer1">
+                <input type="radio" name="punkte[4]" id="label41" value="3">
+                    <label for="label41">noch nie</label>
+            </div>
+            <div class="answer2">
+                <input type="radio" name="punkte[4]" id="label42" value="1">
+                    <label for="label42">werde ich nie machen</label>
+            </div>
+            <div class="answer3">
+                <input type="radio" name="punkte[4]" id="label43" value="9">
+                    <label for="label43">Diverse male</label>
+            </div>
+            <div class="answer4">
+                <input type="radio" name="punkte[4]" id="label44" value="6">
+                    <label for="label44">an einem</label>
+            </div>
+        </div>
+    </li>
+    <li class="quizblock">
+        <div class="questions">
+            <h3 class="quizquestion">Was ist der sogenannte deathcup?</h3>
+        </div>
+        <div class="answers">
+            <div class="answer1">
+                <input type="radio" name="punkte[5]" id="label51" value="1">
+                    <label for="label51">keine Ahnung</label>
+            </div>
+            <div class="answer2">
+                <input type="radio" name="punkte[5]" id="label52" value="4">
+                    <label for="label52">der letzte Becher den man treffen muss</label>
+            </div>
+            <div class="answer3">
+                <input type="radio" name="punkte[5]" id="label53" value="4">
+                    <label for="label53">der Letzte Becher von der Verlängerung</label>
+            </div>
+            <div class="answer4">
+                <input type="radio" name="punkte[5]" id="label54" value="9">
+                    <label for="label54">ein noch nicht ausgetrunkener Becher</label>
+            </div>
+        </div>
+    </li>
+    <li class="quizblock">
+        <div class="questions">
+            <h3 class="quizquestion">Wenn du die möglichkeit hast Boden-Auf zu spielen, machst du es, oder lieber auf Nummer sicher direkt versuchen?</h3>
+        </div>
+        <div class="answers">
+            <div class="answer1">
+                <input type="radio" name="punkte[6]" id="label61" value="1">
+                    <label for="label61">Spiele nie Boden-Auf</label>
+            </div>
+            <div class="answer2">
+                <input type="radio" name="punkte[6]" id="label62" value="4">
+                    <label for="label62">Ich versuche, fast immer Boden-Auf zu Spielen, dann müssen sie 2 Becher trinken</label>
+            </div>
+            <div class="answer3">
+                <input type="radio" name="punkte[6]" id="label63" value="9">
+                    <label for="label63">Ich gehe lieber auf Nummer sicher und Treffe</label>
+            </div>
+            <div class="answer4">
+                <input type="radio" name="punkte[6]" id="label64" value="6">
+                    <label for="label64">Du stinkst</label>
+            </div>
+        </div>
+    </li>
+    <li class="quizblock">
+        <div class="questions">
+            <h3 class="quizquestion">Wie sieht dein Alkoholpegel nach einem Turnier/ Bierpongabend aus?</h3>
+        </div>
+        <div class="answers">
+            <div class="answer1">
+                <input type="radio" name="punkte[7]" id="label71" value="1">
+                    <label for="label71">Gut, denn meistens trinkt mein Bierpong-Partner meine Becher leer</label>
+            </div>
+            <div class="answer2">
+                <input type="radio" name="punkte[7]" id="label72" value="4">
+                    <label for="label72">Meistens kann ich noch knapp stehen</label>
+            </div>
+            <div class="answer3">
+                <input type="radio" name="punkte[7]" id="label73" value="9">
+                    <label for="label73">Dr vöust isch dr töust</label>
+            </div>
+            <div class="answer4">
+                <input type="radio" name="punkte[7]" id="label74" value="6">
+                    <label for="label74">gut eine ar Laterne</label>
+            </div>
+        </div>
+    </li>
+    <li class="quizblock">
+        <div class="questions">
+            <h3 class="quizquestion">Wie verhält sich deine Trefferquote im Verlauf des Abends</h3>
+        </div>
+        <div class="answers">
+            <div class="answer1">
+                <input type="radio" name="punkte[8]" id="label81" value="6">
+                    <label for="label81">Wird immer wie grösser</label>
+            </div>
+            <div class="answer2">
+                <input type="radio" name="punkte[8]" id="label82" value="2">
+                    <label for="label82">Wird immer wie schlechter</label>
+            </div>
+            <div class="answer3">
+                <input type="radio" name="punkte[8]" id="label83" value="9">
+                    <label for="label83">Zuerst bessser, ab einem gewissen Punkt wieder schlechter</label>
+            </div>
+            <div class="answer4">
+                <input type="radio" name="punkte[8]" id="label84" value="4">
+                    <label for="label84">Gibt keine Veränderung im Verlauf des Abends</label>
+            </div>
+        </div>
+    </li>
+    <li class="quizblock">
+        <div class="questions">
+            <h3 class="quizquestion">Bist du der Grund für einen Sieg oder hoffst du auf deinen Partner</h3>
+        </div>
+        <div class="answers">
+            <div class="answer1">
+                <input type="radio" name="punkte[9]" id="label91" value="3">
+                    <label for="label91">Mein Partner regelt das!</label>
+            </div>
+            <div class="answer2">
+                <input type="radio" name="punkte[9]" id="label92" value="7">
+                    <label for="label92">Wir sind ein Team</label>
+            </div>
+            <div class="answer3">
+                <input type="radio" name="punkte[9]" id="label93" value="9">
+                    <label for="label93">Bei den wichtigen Würfen übernehme ich!</label>
+            </div>
+            <div class="answer4">
+                <input type="radio" name="punkte[9]" id="label94" value="1">
+                    <label for="label94">mit mir gewinnt man nicht</label>
+            </div>
+        </div>
+    </li>
+    <li class="quizblock">
+        <div class="questions">
+            <h3 class="quizquestion">Hast du ein Ritual vor jedem Wurf?</h3>
+        </div>
+        <div class="answers">
+            <div class="answer1">
+                <input type="radio" name="punkte[10]" id="label101" value="1">
+                    <label for="label101">WTF?!</label>
+            </div>
+            <div class="answer2">
+                <input type="radio" name="punkte[10]" id="label102" value="9">
+                    <label for="label102">Save, soetwas braucht man</label>
+            </div>
+            <div class="answer3">
+                <input type="radio" name="punkte[10]" id="label103" value="7">
+                    <label for="label103">Treffe auch ohne Ritual</label>
+            </div>
+            <div class="answer4">
+                <input type="radio" name="punkte[10]" id="label104" value="5">
+                    <label for="label104">ja, aber mache es nicht so konsequent</label>
+            </div>
+        </div>
+    </li>
+</ol>
+
+<div class="Auswertung">
+    <div id="AuswertungsButton">
+        <button onclick="ranking()">Auswerten</button>
+    </div>
+    <h3>Auswertung</h3>
+    <p id="AuswertungText">BLABLABLABLA</p>
+</div>
+
+  </body>
+</html>
