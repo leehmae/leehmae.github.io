@@ -2,11 +2,11 @@
     display: flex;
     align-items: left;
     justify-content: left;
-    margin-top: 50px;
-    padding-left: 30px;
+    margin-top: 80px;
+    padding-left: 40px;
+    width: 790px;
 }
 h1{
-    text-align: center;
     border: 3px black solid;
     outline: 0.5rem double rgb(250, 13, 5);
     height: 55px;
@@ -124,7 +124,7 @@ h3{
     align-items: left;
     justify-content: left;
     padding-left: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 .answers{
 }
